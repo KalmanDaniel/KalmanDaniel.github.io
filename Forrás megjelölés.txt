@@ -1,0 +1,3 @@
+https://hu.wikipedia.org/wiki/Balatoni_halfajok_list%C3%A1ja
+http://users.atw.hu/keszihorgasz/halak.htm
+http://127.0.0.1:5500/halak.html

@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Tisza.css">
+
+    <script>
+        function gomb() {
+            document.getElementById("szoveg").innerHTML = "Elküldve.";
+     }
+   </script>
+
+<title>Slideshow Images</title>
+    <style>
+      .slider {
+        width: 500px;
+        height: 300px;
+        background-color: yellow;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0px;
+        text-align: center;
+        overflow: hidden;
+      }
+      .image-container {
+        width: 1500px;
+        background-color: pink;
+        height: 300px;
+        clear: both;
+        position: relative;
+        -webkit-transition: left 2s;
+        -moz-transition: left 2s;
+        -o-transition: left 2s;
+        transition: left 2s;
+      }
+      .slide {
+        float: left;
+        margin: 0px;
+        padding: 0px;
+        position: relative;
+      }
+      #slide-1:target ~ .image-container {
+        left: 0px;
+      }
+      #slide-2:target ~ .image-container {
+        left: -500px;
+      }
+      #slide-3:target ~ .image-container {
+        left: -1000px;
+      }
+      .buttons {
+        position: relative;
+        top: -20px;
+      }
+      .buttons a {
+        display: inline-block;
+        height: 15px;
+        width: 15px;
+        border-radius: 50px;
+        background-color: rgb(255, 0, 0);
+      }
+    </style>
+
+</head>
+<body>
+    <h1><a href="halak.html">Vissza</a></h1>
+    <h1> </h1>
+    <h3>Tisza folyó honos halai</h3>
+    <table>
+        <tr><td><h2>hal neve</h2></td><td><h2>latin neve</h2></td><td><h2>egy kép róla</h2></td></tr>
+
+        <tr><td><h2>Ponty</h2></td><td><h2>Cyprinus carpio Linné</h2></td><td><img src="Tisza_honos_halai/ponty.jpg" alt=""></td></tr>
+
+        <tr><td><h2>Márna</h2></td><td><h2>Barbus barbus Linné</h2></td><td><img src="Tisza_honos_halai/marna.jpg" alt=""></td></tr>
+        
+        <tr><td><h2>Dévérkeszeg</h2></td><td><h2>Abramis brama Linné</h2></td><td><img src="Tisza_honos_halai/dever.jpg" alt=""></td></tr>
+
+        <tr><td><h2>Bagolykeszeg</h2></td><td><h2>Abramis sapa Pallas</h2></td><td><img src="Tisza_honos_halai/bagoly.jpg" alt=""></td></tr>
+
+        <tr><td><h2>Laposkeszeg</h2></td><td><h2>Abramis ballerus Linné</h2></td><td><img src="Tisza_honos_halai/lapos.jpg" alt=""></td></tr>
+
+        <tr><td><h2>Szilvaorrú keszeg</h2></td><td><h2>Vimba vimba Linné</h2></td><td><img src="Tisza_honos_halai/szilvaorru.jpg" alt=""></td></tr>
+
+        <tr><td><h2>Garda</h2></td><td><h2>Pelecus cultratus Linné</h2></td><td><img src="Tisza_honos_halai/garda.jpg" alt=""></td></tr>
+
+        <tr><td><h2>Kárász</h2></td><td><h2>Carassius carassius Linné</h2></td><td><img src="Tisza_honos_halai/karasz.jpg" alt=""></td></tr>
+
+        <tr><td><h2>Ezüstkárász</h2></td><td><h2>Carassius auratus gibelio Bloch</h2></td><td><img src="Tisza_honos_halai/ezustkarasz.jpg" alt=""></td></tr>
+
+        <tr><td><h2>Küsz</h2></td><td><h2>Alburnus alburnus Linné</h2></td><td><img src="Tisza_honos_halai/kusz.jpg" alt=""></td></tr>
+
+        <tr><td><h2>Bodorka</h2></td><td><h2>Rutilus rutilus Linné</h2></td><td><img src="Tisza_honos_halai/bodorka.jpg" alt=""></td></tr>
+
+        <tr><td><h2>Domolykó</h2></td><td><h2>Leuciscus cephalus Linné</h2></td><td><img src="Tisza_honos_halai/domolyko.jpg" alt=""></td></tr>
+
+        <tr><td><h2>Jász</h2></td><td><h2>Leuciscus idus Linné</h2></td><td><img src="Tisza_honos_halai/jasz.jpg" alt=""></td></tr>
+
+        <tr><td><h2>Vörösszárnyú keszeg</h2></td><td><h2>Scardinius erythrophthalmus Linné</h2></td><td><img src="Tisza_honos_halai/vorossz.jpg" alt=""></td></tr>
+
+        <tr><td><h2>Karikakeszeg</h2></td><td><h2>Blicca bjoerkna Linné</h2></td><td><img src="Tisza_honos_halai/karika.jpg" alt=""></td></tr>
+
+        <tr><td><h2>Balin</h2></td><td><h2>Aspius aspius Linné</h2></td><td><img src="Tisza_honos_halai/balin.jpg" alt=""></td></tr>
+
+        <tr><td><h2>Paduc</h2></td><td><h2>Chrondostoma nasus Linné</h2></td><td><img src="Tisza_honos_halai/paduc.jpg" alt=""></td></tr>
+
+        <tr><td><h2>Amur</h2></td><td><h2>Ctenopharyngodon idella Valenciennes</h2></td><td><img src="Tisza_honos_halai/amur.jpg" alt=""></td></tr>
+
+        <tr><td><h2>Harcsa</h2></td><td><h2>Silurus glanis Linné</h2></td><td><img src="Tisza_honos_halai/harcsa.jpg" alt=""></td></tr>
+
+        <tr><td><h2>Törpeharcsa</h2></td><td><h2>Ictalurus nebulosus Le Sueur</h2></td><td><img src="Tisza_honos_halai/torpe.jpg" alt=""></td></tr>
+
+        <tr><td><h2>Csuka</h2></td><td><h2>Esox lucius Linné</h2></td><td><img src="Tisza_honos_halai/csuka.jpg" alt=""></td></tr>
+
+        <tr><td><h2>Menyhal</h2></td><td><h2>Lota lota Linné</h2></td><td><img src="Tisza_honos_halai/menyhal.jpg" alt=""></td></tr>
+
+        <tr><td><h2>Sügér</h2></td><td><h2>Perca fluviatilis Linné</h2></td><td><img src="Tisza_honos_halai/suger.jpg" alt=""></td></tr>
+
+        <tr><td><h2>Kecsege</h2></td><td><h2>Acipenser ruthenus Linné</h2></td><td><img src="Tisza_honos_halai/kecsege.jpg" alt=""></td></tr>
+
+        <tr><td><h2>Süllő</h2></td><td><h2>Stizostedion lucioperea Linné</h2></td><td><img src="Tisza_honos_halai/sullo.jpg" alt=""></td></tr>
+
+    </table>
+
+    <div class="slider">
+        <span id="slide-1"></span>
+        <span id="slide-2"></span>
+        <span id="slide-3"></span>
+        <div class="image-container">
+          <img src="vízképek/Tisza1.jpg" class="slide" width="500" height="300" />
+          <img src="vízképek/Tisza2.jpg" class="slide" width="500" height="300" />
+          <img src="vízképek/Tisza3.jpg" class="slide" width="500" height="300" />
+        </div>
+        <div class="buttons">
+          <a href="#slide-1"></a>
+          <a href="#slide-2"></a>
+          <a href="#slide-3"></a>
+        </div>
+      </div>
+
+    <p id="szoveg">Voltál már a Tiszán horgászni?</p>
+
+    <button onclick="gomb()">Igen</button>
+</body>
+</html>
